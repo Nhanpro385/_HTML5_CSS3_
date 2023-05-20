@@ -137,12 +137,42 @@ input[type="search"]{
 
 .container>.content{
     width: 100%-20px;
-    height: auto;
-    background-color: red;
+    height: 370px;
+   
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
 }
-.container.content{
-    
+.container>.content>.content-group{
+width: 100%;
+height: 175px;
+margin: 5px;
+display: flex;
+
+}
+.container>.content>.content-group>.img-left{
+    width: 33%;
+    height: 175px;  
+   
+    margin-right: 5px;
+}
+.container>.content>.content-group>.img-left>img{
+    width: 184px;
+    height: 175px;
+    object-fit: cover;
+}
+.container>.content>.content-group>.content-detail{
+    width: 370px;
+    height: 175px;
+}
+.container>.content>.content-group>.content-detail>p{
+    color: black;
+    font-size: 12px;
+}
+.container>footer{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    background-color: darkcyan;
 }
