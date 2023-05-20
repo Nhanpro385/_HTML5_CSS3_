@@ -18,7 +18,7 @@
 .container>header>img{
     
     width: 100%;
-    max-width: 1000px;
+  
     height: 150px;
 }
 .container > nav{
@@ -97,40 +97,47 @@
 
 .container>.large{
     margin: 10px;
-    width: 100%-10px;
+    width: 100%;
 }
 
 .container>.large>img{
-    width: 590px;
-    
+    width: 100%;
     height: 100%;  
     object-fit: cover;
 }
 .container>.large>.content-banner{
-    width:250px;
-    height:300px;
+    width: 500px;
+    height:500px;
     text-align: center;
     position: absolute;
-   top: 350px;
-   right: 30px;
+   top: 700px;
+   right: 150px;
    
+}
+.container>.large>.content-banner>p{
+    line-height: 25px;  
+    font-size: 20px;
 }
 p{
     
     color: white;
 }
-h3{
+h1{
     color: white;
+    font-size: xx-large;
 }
 input[type="search"]{
     border: 0px solid;
-    height: 20px;
+    height: 40px;
+    width: 250px;   
     border-radius: 55px;
    
 }
 .btn{
     background-color: cornflowerblue;
     border-radius: 30px;
+    height: 40px;
+    width: 100px;
     border: 0px ;
     box-shadow: 5px 5px 10px gray;
 }
@@ -153,16 +160,15 @@ display: flex;
 .container>.content>.content-group>.img-left{
     width: 33%;
     height: 175px;  
-   
-    margin-right: 5px;
+    margin-right: 5px;  
 }
 .container>.content>.content-group>.img-left>img{
-    width: 184px;
+    width: 304px;
     height: 175px;
     object-fit: cover;
 }
 .container>.content>.content-group>.content-detail{
-    width: 370px;
+    width: 100%-304px;
     height: 175px;
 }
 .container>.content>.content-group>.content-detail>p{
@@ -174,5 +180,7 @@ display: flex;
     width: 100%;
     text-align: center;
     height: 30px;
+    align-content: center;
+    justify-content: center;
     background-color: darkcyan;
 }
