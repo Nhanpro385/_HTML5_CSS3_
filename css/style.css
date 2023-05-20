@@ -163,8 +163,8 @@ display: flex;
     margin-right: 5px;  
 }
 .container>.content>.content-group>.img-left>img{
-    width: 304px;
-    height: 175px;
+ height: 100%;
+
     object-fit: cover;
 }
 .container>.content>.content-group>.content-detail{
