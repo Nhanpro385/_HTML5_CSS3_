@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0px;
    
     box-sizing: border-box;
@@ -189,4 +189,9 @@ display: flex;
     width: 400px;
     height: 200px   ;
     margin: 20px;
+} */
+
+.footer{
+    text-align: center;
+    background-color: aquamarine;
 }
