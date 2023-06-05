@@ -59,5 +59,33 @@ var productList =[{
     name:"Sản phẩm 8",
     price:249,
     detail:"Mô tả sản phẩm 8",
-}
+},
+{
+    id:5,
+    img:"Vegetables.webp",
+    name:"Sản phẩm 5",
+    price:99,
+    detail:"Mô tả sản phẩm 5",
+},
+{
+    id:6,
+    img:"Broccoli-florets.webp",
+    name:"Sản phẩm 6",
+    price:149,
+    detail:"Mô tả sản phẩm 6",
+},
+{
+    id:7,
+    img:"Vegetables.webp",
+    name:"Sản phẩm 7",
+    price:199,
+    detail:"Mô tả sản phẩm 7",
+},
+{
+    id:8,
+    img:"Broccoli-florets.webp",
+    name:"Sản phẩm 8",
+    price:249,
+    detail:"Mô tả sản phẩm 8",
+}           
 ]
